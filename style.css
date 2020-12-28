@@ -20,6 +20,12 @@
 .slider-item{
     height: 100px;
     min-width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(170, 163, 207);
 }
 
 .slider-item:nth-child(3n+1){
