@@ -1,0 +1,35 @@
+.wrapper{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.slider-buttons{
+    text-align: center;
+}
+
+.slider-container{
+    overflow: hidden;
+    background-color: mediumpurple;
+}
+
+.slider-track{
+    display: flex;
+    transition: all 0.2s linear;
+}
+
+.slider-item{
+    height: 100px;
+    min-width: 160px;
+}
+
+.slider-item:nth-child(3n+1){
+    background-color: mediumseagreen;
+}
+
+.slider-item:nth-child(3n+2){
+    background-color: rgb(34, 53, 138);
+}
+
+.slider-item:nth-child(3n+3){
+    background-color: rgb(135, 60, 179);
+}
